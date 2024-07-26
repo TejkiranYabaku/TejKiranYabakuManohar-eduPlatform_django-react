@@ -19,3 +19,9 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+In the frontend folder directory, run below commands
+
+```shell
+npm start
+```
+
