@@ -1,0 +1,75 @@
+.course-detail-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-detail-container img {
+  width: 50%;  /* Adjust to 50% or another appropriate value */
+  height: auto;  /* Maintains the aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+.course-detail-container h1, h2, h3 {
+  color: #2a2a72;
+}
+
+.course-detail-container p, li {
+  color: #4a4a4a;
+}
+
+.review {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 5px solid #007bff;
+}
+
+.enroll-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px; /* Larger padding for a better button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Ensure it spans the full width */
+  margin-top: 20px; /* Space above the button */
+}
+
+.enroll-button:hover {
+  background-color: #0056b3;
+}
+
+.review-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.back-button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+

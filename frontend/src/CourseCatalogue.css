@@ -1,0 +1,97 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.filter-search-container {
+  display: flex;
+  justify-content: space-around; /* Changed from 'space-between' for even spacing */
+  width: 100%;
+  padding: 20px; /* Increased padding for better layout */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  margin-left: 70px; /* Adjust this value as needed */
+}
+
+.search-bar {
+  width: 50%; /* Adjusted for better alignment */
+  padding: 10px;
+  margin: 10px; /* Added margin for spacing */
+}
+
+.select-filter {
+  padding: 10px;
+  margin: 10px; /* Added margin for consistency */
+  width: 30%; /* Adjusted width for select and slider */
+}
+
+.rating-slider {
+  padding: 5px;
+  margin: 1px; /* Added margin for consistency */
+  width: 40%;
+}
+
+.allCourses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px; /* Increased gap for better visual separation */
+  width: 90%; /* Adjusted width */
+  padding: 10px;
+  overflow-y: auto; /* Added for scrolling */
+}
+
+.course {
+  border: 1px solid #ccc;
+  padding: 20px; /* Increased padding for more space inside cards */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for 3D effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.course:hover {
+  transform: translateY(-5px); /* Raises the card slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow for hover effect */
+}
+
+.course img {
+  width: 100%; /* Ensures images take full width of the card */
+  height: 150px; /* Set height for uniformity */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  border-radius: 4px; /* Rounded corners for images */
+}
+
+h3 {
+  margin-top: 10px;
+  color: #007bff; /* Bright blue for emphasis */
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px; /* Added bottom margin for spacing */
+}
+
+.view-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%; /* Button width matches card width */
+}
+
+.view-button:hover {
+  background-color: #0056b3; /* Darker blue on hover for button */
+}
